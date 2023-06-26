@@ -17,6 +17,7 @@ console.log(myString.toLowerCase());
 
 
 console.log(myString[2]);
+console.log(myString[3]);
 //string lenght
 
 myString="Clement";
