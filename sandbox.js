@@ -21,3 +21,15 @@ console.log(myString[2]);
 
 myString="Clement";
 console.log(myString.length+"   "+ "char long");
+//commom string methods
+let email="bobmouse@gmail.com";
+let results= email.slice(2,7);
+
+let result=email.lastIndexOf('i');
+
+let result2=email.substr(2,4);
+let result3=email.replace('i','z');
+console.log(results);
+console.log(result);
+console.log(result2);
+console.log(result3);
