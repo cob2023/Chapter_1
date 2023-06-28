@@ -33,4 +33,11 @@ console.log(results);
 console.log(result);
 console.log(result2);
 console.log(result3);
+//string templates
+
+let name="John";
+let  age=56;
+let result4= `Hi my name is ${name} and I am ${age} years old`//use back ticks
+console.log(result4);
+
 
