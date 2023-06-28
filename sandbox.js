@@ -39,5 +39,5 @@ let name="John";
 let  age=56;
 let result4= `Hi my name is ${name} and I am ${age} years old`//use back ticks
 console.log(result4);
-
+console.log(result4);
 
