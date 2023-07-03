@@ -10,7 +10,7 @@ const names=['Pat', 'cillian','ciaran']
 for(let i=0;i<names.length;i++){
     console.log(names[i])
 }
-*/
+
 //while loops
 let counter=0;//initilises counter to 0
 while(counter<5){
@@ -53,6 +53,32 @@ else{
     console.log("All ok");
 }
 
+//break and continue
 
+let scores=[23,45,77,88,9]
+
+for (let i=0;i<scores.length;i++){
+    console.log(`Your score is: ${scores[i]}`);
+    if(scores[i]===77){
+        
+    console.log("ended");
+    break;
+    }
+}*/
+//switch statment_alternative to if else statments
+let x=prompt("grade? ")
+//console.log(typeof(x));
+switch (x){
+
+    case 1:
+        console.log("One");
+        break;
+    case '2':
+        console.log("Two");
+        break;
+    default:
+        console.log("sorry wrong value");
+        break;
+}
 
 
