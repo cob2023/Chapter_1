@@ -11,7 +11,7 @@ fullName= firstNAME+ secondName;
 console.log(fullName);
 
 //string methods
-myString="Clement";
+myString="Clement1";
 console.log(myString.toUpperCase());
 console.log(myString.toLowerCase());
 
